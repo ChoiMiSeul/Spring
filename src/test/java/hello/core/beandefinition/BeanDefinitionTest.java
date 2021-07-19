@@ -20,6 +20,7 @@ public class BeanDefinitionTest {
             //getBeanDefinition 정보 얻을 수 있음
             BeanDefinition beanDefinition = ac.getBeanDefinition(beanDefinitionName);
 
+
             if(beanDefinition.getRole() == BeanDefinition.ROLE_APPLICATION){
                 System.out.println("beanDefinitionName = " + beanDefinitionName + " beanDefinition = " + beanDefinition);
             }
